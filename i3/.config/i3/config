@@ -15,7 +15,7 @@ exec --no-startup-id picom
 exec --no-startup-id /usr/libexec/gsd-xsettings
 exec --no-startup-id xset s off -dpms
 exec_always --no-startup-id killall polybar
-exec_always --no-startup-id ~/dotfiles/polybar/.config/polybar/launch_polybar.sh
+exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
 exec_always --no-startup-id feh --bg-scale ~/wallpapers/wolf.jpeg
 bindsym $mod+space exec rofi -show drun
 bindsym $mod+Shift+space exec rofi -show window
